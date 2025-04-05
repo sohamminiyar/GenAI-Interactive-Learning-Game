@@ -17,14 +17,13 @@ Choose from different categories and difficulty levels.
 Stores user progress, badges, and scores.
 
 🧠 Tech Stack
-Python 3
-
-SQLite3
-
-OpenRouter API (uses OpenAI GPT-3.5-turbo)
-
-requests, dotenv
-
+Component	Technology Used
+LLM Backend	OpenRouter API (GPT-3.5 / GPT-4 via OpenAI)
+Programming	Python 3
+Database	SQLite3
+API Handling	requests, dotenv
+Interface	CLI (Prototype)
+UI Streamlit
 📌 Future Enhancements
 User authentication & login system
 
@@ -32,4 +31,7 @@ Web UI with Flask or React frontend
 
 Leaderboard and achievement system
 
-Note:- The .env file is ignored which consists of the OPEN ROUTER API KEY.
+Enhanced question difficulty logic
+
+Note: The .env file is ignored in version control. It contains your personal OpenRouter API key and must be added manually.
+
