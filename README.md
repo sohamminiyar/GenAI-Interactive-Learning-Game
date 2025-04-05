@@ -18,6 +18,18 @@ Stores user progress, badges, and scores.
 
 🧠 Tech Stack
 Python 3
+
 SQLite3
+
 OpenRouter API (uses OpenAI GPT-3.5-turbo)
+
 requests, dotenv
+
+📌 Future Enhancements
+User authentication & login system
+
+Web UI with Flask or React frontend
+
+Leaderboard and achievement system
+
+Note:- The .env file is ignored which consists of the OPEN ROUTER API KEY.
